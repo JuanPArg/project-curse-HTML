@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favricon.ico" type="image/x-icon">
+    <title>Hablando con la verdad</title>ç
+    <style>
+        <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        input[type=text],
+        input[type=email],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        div.contenedor-formulario {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+    </style>
+</head>
+<body>
+<header>
+    <h1>Hablando con la verdad</h1>
+<nav>
+    <ul>
+       <li><a href="index.html">Home</a></li> 
+       <li><a href="Preferencias.html">Preferencias</a></li> 
+       <li><a href="audivisuales.html">Audiovisuales</a></li> 
+        <li><a href="Contacto.html">Contacto</a></li>
+        
+    </ul>
+
+
+</nav>
+
+</header>
+
+<div class="contededor-formulario">
+    <form>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" placeholder="escribí aquí tu nombre">
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido" placeholder="escribí aquí tu apellido">
+        <label for="mail">Email: </label>
+        <input type="email" id="mail" name="mail" placeholder="escribí aquí tu mail" required>
+        <label for="provincia">Provincia: </label>
+        <select name="provincia" id="provincia">
+
+<option value="Buenos Aires">Buenos Aires</option>
+<option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+<option value="Catamarca">Catamarca</option>
+<option value="Chaco">Chaco</option>
+<option value="Chubut">Chubut</option>
+<option value="Córdoba">Córdoba</option>
+<option value="Corrientes">Corrientes</option>
+<option value="Entre Ríos">Entre Ríos</option>
+<option value="Formosas">Formosa</option>
+<option value="Jujuy">Jujuy</option>
+<option value="La Pampa">La Pampa</option>
+<option value="La Rioja">La Rioja</option>
+<option value="Mendoza">Mendoza</option>
+<option value="Misiones">Misiones</option>
+<option value="Neuquén">Neuquén</option>
+<option value="Río Negro">Río Negro</option>
+<option value="Salta">Salta</option>
+<option value="San Luis">San Luis</option>
+<option value="Santa Cruz">Santa Cruz</option>
+<option value="Santa Fe">Santa Fe</option>
+<option value="Santiago del Estero">Santiago del Estero</option>
+<option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+<option value="Tucumán">Tucumán</option>
+</select>
+</form>
+</div>
+
+<label for="comentario">Comentario</label>
+<textarea name="comentario" id="comentario" placeholder="escribí aquí tu comentario"></textarea>
+<label for="motivo">Motivo de contacto</label>
+<input type="radio" id="motivo" name="motivo"><i>Soy fan</i>
+<input type="radio" id="motivo" name="motivo"><i>Queiro una remera</i>
+<input type="radio" id="motivo" name="motivo"><i>Comerciales</i>
+<input type="radio" id="motivo" name="motivo"><i>Reclamos</i>
+
+<input type="submit" value="enviar">
+<footer class="footer">
+    <p>derechos reservados &copy; 2023</p>
+</footer>
+    
+</body>
+</html>
